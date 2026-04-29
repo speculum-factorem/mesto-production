@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Mesto</title>
-  <script type="module" crossorigin src="./assets/index-BLHDdpKu.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-DEDaAb6j.css">
+  <script type="module" crossorigin src="./assets/index-qWHeXmzf.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BD-OK6tQ.css">
 </head>
 <body class="body">
   <div class="page">
@@ -37,16 +37,16 @@
       <h3 class="popup__name">Редактировать профиль</h3>
       <form class="popup__form" name="profile" novalidate>
         <label for="username-input" class="popup__label">
-          <input id="username-input" type="text" class="popup__input"
+          <input id="username-input" type="text" class="popup__input popup__input_type_name"
                  name="username" required placeholder="Ваше имя" minlength="2" maxlength="40" pattern="[A-Za-zА-Яа-яЁё\\-\\s]+">
           <span class="username-input-error popup__input-error"></span>
         </label>
         <label for="description-input" class="popup__label">
-          <input id="description-input" type="text" class="popup__input"
+          <input id="description-input" type="text" class="popup__input popup__input_type_description"
                  name="description" required placeholder="Ваш род занятий" minlength="2" maxlength="200">
           <span class="description-input-error popup__input-error"></span>
         </label>
-        <button type="submit" class="popup__submit popup__submit_disabled" aria-label="Сохранить" disabled>Сохранить</button>
+        <button type="submit" class="popup__submit popup__button_disabled" aria-label="Сохранить" disabled>Сохранить</button>
       </form>
     </div>
   </div>
@@ -56,16 +56,16 @@
       <h3 class="popup__name">Новое место</h3>
       <form class="popup__form" name="mesto" novalidate>
         <label for="place-name-input" class="popup__label">
-          <input id="place-name-input" type="text" class="popup__input"
+          <input id="place-name-input" type="text" class="popup__input popup__input_type_card-name"
                  name="placename" required placeholder="Название" minlength="2" maxlength="30" pattern="[A-Za-zА-Яа-яЁё\\-\\s]+">
           <span class="place-name-input-error popup__input-error"></span>
         </label>
         <label for="place-image-input" class="popup__label">
-          <input id="place-image-input" type="url" class="popup__input"
+          <input id="place-image-input" type="url" class="popup__input popup__input_type_url"
                  name="placeimage" required placeholder="Ссылка на картинку">
           <span class="place-image-input-error popup__input-error"></span>
         </label>
-        <button type="submit" class="popup__submit popup__submit_disabled" aria-label="Создать" disabled>Создать</button>
+        <button type="submit" class="popup__submit popup__button_disabled" aria-label="Создать" disabled>Создать</button>
       </form>
     </div>
   </div>
@@ -91,11 +91,11 @@
       <h3 class="popup__name">Обновить аватар</h3>
       <form class="popup__form" name="user-avatar" novalidate>
         <label for="avatar-input" class="popup__label">
-          <input id="avatar-input" type="url" class="popup__input"
+          <input id="avatar-input" type="url" class="popup__input popup__input_type_avatar popup__input_type_url"
                  name="avatar" required placeholder="Введите ссылку на аватар" minlength="2" maxlength="200">
           <span class="avatar-input-error popup__input-error"></span>
         </label>
-        <button type="submit" class="popup__submit popup__submit_disabled" aria-label="Сохранить" disabled>Сохранить</button>
+        <button type="submit" class="popup__submit popup__button_disabled" aria-label="Сохранить" disabled>Сохранить</button>
       </form>
     </div>
   </div>
