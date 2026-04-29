@@ -38,7 +38,7 @@
       <form class="popup__form" name="profile" novalidate>
         <label for="username-input" class="popup__label">
           <input id="username-input" type="text" class="popup__input popup__input_type_name"
-                 name="username" required placeholder="Ваше имя" minlength="2" maxlength="40" pattern="[A-Za-zА-Яа-яЁё\\-\\s]+">
+                 name="username" required placeholder="Ваше имя" minlength="2" maxlength="40" pattern="[A-Za-zА-Яа-яЁё\s-]+">
           <span class="username-input-error popup__input-error"></span>
         </label>
         <label for="description-input" class="popup__label">
@@ -57,7 +57,7 @@
       <form class="popup__form" name="mesto" novalidate>
         <label for="place-name-input" class="popup__label">
           <input id="place-name-input" type="text" class="popup__input popup__input_type_card-name"
-                 name="placename" required placeholder="Название" minlength="2" maxlength="30" pattern="[A-Za-zА-Яа-яЁё\\-\\s]+">
+                 name="placename" required placeholder="Название" minlength="2" maxlength="30" pattern="[A-Za-zА-Яа-яЁё\s-]+">
           <span class="place-name-input-error popup__input-error"></span>
         </label>
         <label for="place-image-input" class="popup__label">
